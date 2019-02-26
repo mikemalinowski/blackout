@@ -1,7 +1,7 @@
-# Insomnia
+# Blackout
 
 ## Overview
-Insomnia is a small micro-module which makes it easier to completely
+Blackout is a small micro-module which makes it easier to completely
 forget packages. This is particularly useful when working with packages
 made up of multiple sub-modules.
 
@@ -18,10 +18,10 @@ When working with packages with any modules this can be time consuming
 and problematic - particularly when developing within a host which is
 persistent.
 
-Insomnia helps, because we can unload the package in its entirety in 
+Blackout helps, because we can unload the package in its entirety in 
 a single line using:
 
-    ```insomnia.drop('foo')```
+    ```blackout.drop('foo')```
 
 This will remove any hold to foo as well as any submodules of foo. In this 
 case we can simply call ```import foo``` again, knowing that everything
