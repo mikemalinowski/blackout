@@ -1,5 +1,12 @@
 # Blackout
 
+## Installation
+You can either download or clone this repo, or alternatively you can
+install this module using pip:
+
+```commandline
+pip install blackout
+```
 ## Overview
 Blackout is a small micro-module which makes it easier to completely
 forget packages. This is particularly useful when working with packages
