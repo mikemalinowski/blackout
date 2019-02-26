@@ -78,6 +78,6 @@ def drop(package):
     if isinstance(package, types.ModuleType):
         package = package.__name__
 
-    for m in sys.modules.keys():
+    for m in list(sys.modules.keys()):
         if m == package or m.startswith('%s.' % package):
             del sys.modules[m]
