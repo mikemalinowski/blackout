@@ -8,7 +8,7 @@ except:
 
 setuptools.setup(
     name='blackout',
-    version='1.0.2',
+    version='1.0.4',
     author='Mike Malinowski',
     author_email='mike@twisted.space',
     description='A python package making it easy to drop a multi-module package from sys.modules',

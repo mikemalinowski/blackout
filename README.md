@@ -1,5 +1,3 @@
-# Blackout
-
 ## Installation
 You can either download or clone this repo, or alternatively you can
 install this module using pip:
@@ -7,6 +5,8 @@ install this module using pip:
 ```commandline
 pip install blackout
 ```
+
+
 ## Overview
 Blackout is a small micro-module which makes it easier to completely
 forget packages. This is particularly useful when working with packages
@@ -33,6 +33,7 @@ a single line using:
 This will remove any hold to foo as well as any submodules of foo. In this 
 case we can simply call ```import foo``` again, knowing that everything
 within that package is being loaded fresh.
+
 
 ## Compatability
 
